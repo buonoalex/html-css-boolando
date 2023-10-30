@@ -32,26 +32,30 @@
 }
 
 .photo-set{
+
     height: 300px;
-    object-fit: contain;
+    width: auto;
+    object-fit: fill;
 }
+
 
 .card-flex{
     display: flex;
     flex-direction: column;
     width: 29%;
-
+    border: 1px solid rgb(207, 197, 197);
 }
 
-.card-content-photo{
+.card-content-photo-flex{
+    display: flex;
     background-color: aqua;
+    border: 1px solid rgb(207, 197, 197);
 }
 
 .card-desc-flex{
-    background-color: red;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
     padding: 10px;
 }
 
@@ -63,7 +67,6 @@
 #section-container-flex{
     width: 70%;
     margin: 0 auto;
-    height: 500px;
     display: flex;
     flex-direction: column;
 }
