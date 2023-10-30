@@ -23,6 +23,10 @@
     background-color: purple;
 }
 
+.text-red{
+    color: red;
+}
+
 .bg-gray{
     background-color: gray;
 }
@@ -35,12 +39,20 @@
 .card-flex{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 29%;
 
 }
 
 .card-content-photo{
     background-color: aqua;
+}
+
+.card-desc-flex{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
 }
 
 
@@ -49,7 +61,6 @@
 /* ID */
 
 #section-container-flex{
-    background-color: red;
     width: 70%;
     margin: 0 auto;
     height: 500px;
@@ -60,13 +71,14 @@
 #Primo-contenitore-figlio-section-flex{
     flex-direction: column;
     display: flex;
-    background-color: blue;
     align-items: center;
     padding: 25px;
 }
 
 #Secondo-contenitore-figlio-section-flex{
     display: flex;
-    background-color: purple;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
