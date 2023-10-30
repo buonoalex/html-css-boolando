@@ -1,0 +1,72 @@
+/* RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* TAGS */ 
+
+
+/* CLASSI */
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.photo-set{
+    height: 300px;
+    object-fit: contain;
+}
+
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.card-content-photo{
+    background-color: aqua;
+}
+
+
+
+
+/* ID */
+
+#section-container-flex{
+    background-color: red;
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Primo-contenitore-figlio-section-flex{
+    flex-direction: column;
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    padding: 25px;
+}
+
+#Secondo-contenitore-figlio-section-flex{
+    display: flex;
+    background-color: purple;
+}
+
