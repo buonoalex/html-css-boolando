@@ -32,12 +32,8 @@
 }
 
 .photo-set{
-    height: 300px;
+    width: 100%;
     object-fit: fill;
-}
-
-.photo-conteiner{
-    width: 208px;
 }
 
 .card-flex{
@@ -48,8 +44,8 @@
     box-shadow: 10px 10px 20px black;
 }
 
-.card-content-photo-flex{
-    border: 1px solid rgb(207, 197, 197);
+.card-content-photo{
+    
 }
 
 .card-desc-flex{
