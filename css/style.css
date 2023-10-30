@@ -42,10 +42,7 @@
     width: 29%;
     border: 1px solid rgb(207, 197, 197);
     box-shadow: 10px 10px 20px black;
-}
-
-.card-content-photo{
-    
+    min-width: 200px;
 }
 
 .card-desc-flex{
@@ -64,6 +61,27 @@
     color: white;
 }
 
+.footer-flex{
+    display: flex;
+    gap: 5px;
+}
+
+.footer-flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-flex-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -109,5 +127,19 @@
 
 #logo-header{
     width: 150px;
+}
+
+#container-footer{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin-top: 60px;
+}
+
+#footer-container-flex{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
