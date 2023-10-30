@@ -83,6 +83,14 @@
     justify-content: center;
 }
 
+.text-canc{
+    text-decoration: line-through;
+}
+
+.text-gray{
+    color: rgb(155, 153, 153);
+}
+
 
 
 /* ID */
