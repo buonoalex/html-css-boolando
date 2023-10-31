@@ -150,8 +150,6 @@ section{
 
 #header-container-flex{
     background-color: rgb(231, 86, 19);
-    display: flex;
-    justify-content: center;
     height: 100px;
     padding: 35px;
 }
@@ -160,8 +158,9 @@ section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 70%;
+    width: 75%;
     align-items: center;
+    margin: 0 auto;
     
 }
 
@@ -178,7 +177,7 @@ section{
 
 #footer-container-flex{
     display: flex;
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
     justify-content: space-between;
 }
