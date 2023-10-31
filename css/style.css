@@ -85,6 +85,7 @@ section{
 
 .list-container-flex{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -150,8 +151,8 @@ section{
 
 #header-container-flex{
     background-color: rgb(231, 86, 19);
-    height: 100px;
     padding: 35px;
+    min-width: 250px;
 }
 
 #contenitore-header-flex{
@@ -172,6 +173,7 @@ section{
     background-color: black;
     color: white;
     padding: 25px;
+    min-width: 250px;
     
 }
 
