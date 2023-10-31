@@ -8,6 +8,13 @@
 
 /* TAGS */ 
 
+section{
+    background-image: url(../img/zuccona.jpg);
+    background-size: 100px;
+    background-repeat: repeat;
+    padding-bottom: 60px;
+}
+
 
 /* CLASSI */
 
@@ -43,7 +50,31 @@
     border: 1px solid rgb(207, 197, 197);
     box-shadow: 10px 10px 20px black;
     min-width: 200px;
+    background-color: white;
 }
+
+.pulsante{
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+/* ANIMAZIONE */
+
+.card-flex:hover {
+    font-size: 150%;
+    background-color: rgb(230, 156, 122);
+}
+
+.pulsante:hover {
+    font-size: 150%;
+    background-color: rgb(138, 134, 134);
+    color: white;
+
+
+}
+
+/* FINE */
 
 .card-desc-flex{
     display: flex;
@@ -88,7 +119,7 @@
 }
 
 .text-gray{
-    color: rgb(155, 153, 153);
+    color: rgb(51, 50, 50);
 }
 
 
@@ -106,14 +137,15 @@
     flex-direction: column;
     display: flex;
     align-items: center;
-    padding: 25px;
+    gap: 10px;
+    padding: 45px;
 }
 
 #Secondo-contenitore-figlio-section-flex{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #header-container-flex{
@@ -141,7 +173,7 @@
     background-color: black;
     color: white;
     padding: 25px;
-    margin-top: 60px;
+    
 }
 
 #footer-container-flex{
@@ -150,4 +182,3 @@
     margin: 0 auto;
     justify-content: space-between;
 }
-
